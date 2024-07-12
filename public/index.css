@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.scrollWelcome{
+    width: 400px;   
+    margin: auto;
+}
+
+.mainImg{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+}
+

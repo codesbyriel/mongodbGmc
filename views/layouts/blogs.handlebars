@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="blogs.css">
+
+{{> __header}}
+
+<body>
+    <div class="createPost">
+        <h1>Create a Post!</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deleniti tempore consequatur nihil impedit eum maxime, aspernatur molestiae possimus, odit eos corporis tenetur adipisci repellat quo accusamus. Doloribus, velit ipsa.</p>
+
+        <form
+            action="/blogs/create-post"
+            method="post"
+            enctype="application/x-www-form-urlencoded"
+        >
+            <div>
+                <label>Title</label>
+                <input name="title"  type="text" placeholder=""> 
+            </div>
+
+            <div>
+                <label>Tags</label>
+               <input name="tags"  type="text" placeholder="">
+            </div>
+
+            <div>
+                <label>Content</label>
+                <textarea name="textContent" id="typeText" rows="10"></textarea>
+            </div>
+
+            <div class="cpButton">
+                <button>Create Post</button>
+            </div>
+      </form>
+
+   
+</body>

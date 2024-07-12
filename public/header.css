@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    background-color: rgb(109, 44, 44);
+    height: 50px;
+}
+
+.navBar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.logo{
+margin-right: 100px;
+color: white;
+}
